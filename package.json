@@ -4,11 +4,14 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "start": "nodemon src/server.ts",
     "build": "tsc",
-    "dev:server":  "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts"
+    "dev:server": "ts-node --inspect --transpile-only --ignore-watch node_modules src/server.ts"
   },
   "dependencies": {
+    "date-fns": "^2.21.1",
     "express": "^4.17.1",
+    "ts-node": "^9.1.1",
     "uuidv4": "^6.2.7"
   },
   "devDependencies": {
