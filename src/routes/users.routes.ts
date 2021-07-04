@@ -6,6 +6,7 @@ import CreateUserService from '../service/CreateUserService';
 import UpdateUserAvatarService from '../service/UpdateUserAvatarService';
 
 import ensureAuthenticated from '../middlewares/ensureAuthenticated';
+import { IsNull } from 'typeorm';
 const usersRouter = Router();
 const upload = multer(uploadConfig);
 

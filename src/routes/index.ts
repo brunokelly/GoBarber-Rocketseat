@@ -1,8 +1,8 @@
 import { Router } from 'express';
 
-import appointmetnsRouter from './appointments.route';
+import appointmetnsRouter from './appointments.routes';
 import usersRouter from './users.routes';
-import sessionsRouter from './sessions.route';
+import sessionsRouter from './sessions.routes';
 
 const routes = Router();
 
